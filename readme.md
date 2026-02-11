@@ -17,6 +17,7 @@ Windows GUI lab for editing, building, and executing 16-bit x86 modules on WHP (
 
 ## Quick Start
 
+0. See [Alex Ionescu](https://www.alex-ionescu.com)'s How to [install WHP](https://github.com/ionescu007/Simpleator#testing).
 1. Launch `whp16.exe`.
 2. Use `File -> New Module`.
 3. Save with `File -> Save Assembly As...`.

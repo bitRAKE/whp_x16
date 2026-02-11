@@ -1,0 +1,5 @@
+# disable end of line conversion on all files
+*       -text
+
+# these files are not c/c++
+*.inc   linguist-language=Assembly
