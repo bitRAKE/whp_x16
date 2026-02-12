@@ -17,13 +17,14 @@ Windows GUI lab for editing, building, and executing 16-bit x86 modules on WHP (
 
 ## Quick Start
 
-0. See [Alex Ionescu](https://www.alex-ionescu.com)'s How to [install WHP](https://github.com/ionescu007/Simpleator#testing).
-1. Launch `whp16.exe`.
-2. Use `File -> New Module`.
-3. Save with `File -> Save Assembly As...`.
-4. Build with `Session -> Build`.
-5. Run with `Session -> Run`.
-6. Stop long-running guests with `Session -> Stop`.
+1. See [Alex Ionescu](https://www.alex-ionescu.com)'s How to [install WHP](https://github.com/ionescu007/Simpleator#testing).
+2. `git clone --recursive https://github.com/bitRAKE/whp_x16.git`
+3. Launch `whp16.exe`.
+4. Use `File -> New Module`.
+5. Save with `File -> Save Assembly As...`.
+6. Build with `Session -> Build`.
+7. Run with `Session -> Run`.
+8. Stop long-running guests with `Session -> Stop`.
 
 ## Useful Settings
 
