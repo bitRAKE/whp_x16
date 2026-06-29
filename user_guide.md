@@ -137,8 +137,8 @@ Some modules declare required capability flags. If missing, load/run can fail wi
 
 Examples:
 
-- `x16\guest_req_ioport.asm` intentionally requests unavailable I/O port support.
-- `x16\guest_strict_pref_ioport.asm` intentionally fails in strict-preferred mode.
+- `x16\test_ioport_probe.asm` requests preferred I/O port support and exercises the `IN 60h` exit path.
+- `x16\test_caps_exact_profile.asm` uses exact-profile policy negotiation for capability-failure testing.
 
 ## Recommended Learning Modules
 
@@ -146,8 +146,9 @@ Start with:
 
 - `x16\guest_console.asm` - text MMIO
 - `x16\guest_ticks.asm` - time/ticks
-- `x16\guest_framefill.asm` - framebuffer basics
+- `x16\test_fb_gradient.asm` - framebuffer basics
 - `x16\guest_unreal.asm` - unreal-mode experiment
+- `x16\guest_donut_unreal.asm` - animated unreal-mode framebuffer sample
 
 Focused tests:
 
