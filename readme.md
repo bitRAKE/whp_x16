@@ -29,7 +29,7 @@ Windows GUI lab for editing, building, and executing 16-bit x86 modules on WHP (
 ## Useful Settings
 
 - `View -> Settings...`
-  - `fasm2 command line template`
+  - `fasm2 command line template` (default: `%SCRIPT% -e 5 %SOURCE% %OUTPUT%`)
   - log/highlight colors
   - LFB clear color
   - `Present min ms` throttle (`0` = off, `16` = ~60 Hz pacing)

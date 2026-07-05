@@ -89,7 +89,7 @@ Open `View -> Settings...`
 Useful fields:
 
 - `fasm2 command line template`:
-  - Default: `%SCRIPT% %SOURCE% %OUTPUT%`
+  - Default: `%SCRIPT% -e 5 %SOURCE% %OUTPUT%`
   - Keep tokens unless you know your toolchain changes.
 - Log colors and code highlight colors.
 - `LFB clear` color.
@@ -162,7 +162,7 @@ Focused tests:
 ### Build fails: `fasm2.cmd` not found
 
 - Check `View -> Settings...` command template.
-- Default should be `%SCRIPT% %SOURCE% %OUTPUT%`.
+- Default should be `%SCRIPT% -e 5 %SOURCE% %OUTPUT%`.
 - Ensure `fasm2.cmd` exists in repo root.
 
 ### Build succeeds but run fails early
